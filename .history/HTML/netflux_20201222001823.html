@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflux</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <img src="D:\Netflux\images\images\logo.png" class="logo" alt="">
+            <ul class="navbar-menu">
+                <li>
+                    <a href="" class="active">الرئيسية</a>
+                </li>
+                <li>
+                    <a href="" class="active">افلام</a>
+                </li>
+                <li>
+                    <a href="" class="active">مسلسلات</a>
+                </li>
+            </ul>
+            <div class="navbar-search">
+                <input type="text" name="search" placeholder="search">
+                <button>
+                    <img src="" alt="">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="movies is-suggested has-arrows">
+        <h3 class="section-title">اقتراحاتنا لك</h3>
+        <button class="slider-arrow is-right">
+            <img src="data:image/png;base64,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
+                width=" 48" alt="">
+        </button>
+        <ul class="movies-grid">
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie1.svg" alt="The Mazzer Runner">
+                </a>
+                <span class="movie-description">
+                    The Mazzer Runner
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie2.svg" alt="Breaking Bad">
+                </a>
+                <span class="movie-description">
+                    Breaking Bad
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie3.svg" alt="Peaky Blinders">
+                </a>
+                <span class="movie-description">
+                    Peaky Blinder
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie4.svg" alt="The Good Doctor">
+                </a>
+                <span class="movie-description">
+                    The Good Doctor
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+        </ul>
+        <button class="slider-arrow is-left">
+            <img src="" alt="">
+        </button>
+        <div class="container">
+
+        </div>
+    </section>
+
+    <section class="movies is-trending has-arrows">
+        <h3 class="section-title">الاكثر مشاهدة</h3>
+        <button class="slider-arrow is-right">
+            <img src="" alt="">
+        </button>
+        <ul class="movies-grid">
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie1.svg" alt="The Mazzer Runner">
+                </a>
+                <span class="movie-description">
+                    The Mazzer Runner
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie2.svg" alt="Breaking Bad">
+                </a>
+                <span class="movie-description">
+                    Breaking Bad
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie3.svg" alt="Peaky Blinders">
+                </a>
+                <span class="movie-description">
+                    Peaky Blinder
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie4.svg" alt="The Good Doctor">
+                </a>
+                <span class="movie-description">
+                    The Good Doctor
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+        </ul>
+        <button class="slider-arrow is-left">
+            <img src="" alt="">
+        </button>
+        <div class="container">
+
+        </div>
+        <div class="container">
+
+        </div>
+    </section>
+
+    <section class="movies is-series">
+        <h3 class="section-title">المسلسلات</h3>
+        <ul class="movies-grid">
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie1.svg" alt="The Mazzer Runner">
+                </a>
+                <span class="movie-description">
+                    The Mazzer Runner
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie2.svg" alt="Breaking Bad">
+                </a>
+                <span class="movie-description">
+                    Breaking Bad
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie3.svg" alt="Peaky Blinders">
+                </a>
+                <span class="movie-description">
+                    Peaky Blinder
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie4.svg" alt="The Good Doctor">
+                </a>
+                <span class="movie-description">
+                    The Good Doctor
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie1.svg" alt="The Mazzer Runner">
+                </a>
+                <span class="movie-description">
+                    The Mazzer Runner
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie2.svg" alt="Breaking Bad">
+                </a>
+                <span class="movie-description">
+                    Breaking Bad
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie3.svg" alt="Peaky Blinders">
+                </a>
+                <span class="movie-description">
+                    Peaky Blinder
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+            <li>
+                <a href="">
+                    <img src="D:\Netflux\images\images\movie4.svg" alt="The Good Doctor">
+                </a>
+                <span class="movie-description">
+                    The Good Doctor
+                    <span class="play-icon.png">
+                        <img src="https://developers.google.com/search/podcasts/search-off-the-record/images/search-off-the-record-logo.png"
+                            width="48" alt="">
+                    </span>
+                </span>
+            </li>
+        </ul>
+        <div class="container">
+
+        </div>
+        <div class="container">
+
+        </div>
+    </section>
+
+    <section class="movies is-movies">
+        <div class="container">
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
